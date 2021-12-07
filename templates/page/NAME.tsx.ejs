@@ -1,0 +1,11 @@
+import React from "react";
+import { observer } from "mobx-react-lite";
+import "./<%= name.kebab %>.scss";
+
+export const <%= name.pascal %> = observer(() => {
+  return (
+    <div>
+      <h1><%= name.title %> </h1>
+    </div>
+  );
+});

@@ -1,0 +1,71 @@
+{
+	"name": "react-template",
+	"version": "1.0.0",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"@types/jest": "^26.0.15",
+		"@types/node": "^12.0.0",
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"apisauce": "^2.1.2",
+		"mobx": "^6.3.8",
+		"mobx-react-lite": "^3.2.2",
+		"mobx-state-tree": "^5.0.5",
+		"node-sass": "^5.0.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-router-dom": "6",
+		"react-scripts": "4.0.3",
+		"typescript": "^4.1.2",
+		"web-vitals": "^1.0.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"g": "node ./scripts/generate",
+		"rename": "node ./scripts/rename",
+		"eslint": "eslint ./src"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@types/ejs": "^3.1.0",
+		"@types/humps": "^2.0.1",
+		"@types/title": "^3.4.1",
+		"@typescript-eslint/eslint-plugin": "^5.5.0",
+		"@typescript-eslint/parser": "^5.5.0",
+		"ejs": "^3.1.6",
+		"eslint-plugin-react": "^7.27.1",
+		"humps": "^2.0.1",
+		"title": "^3.4.3"
+	},
+	"author": {
+		"name": "Ibrahim Elaradi",
+		"url": "https://ibrahimelaradi.dev",
+		"email": "ibrahimelaradi@gmail.com"
+	},
+	"repository": {
+		"url": "https://github.com/ibrahimelaradi/react-template"
+	}
+}

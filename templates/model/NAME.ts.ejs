@@ -1,0 +1,21 @@
+import { Instance, SnapshotOut, types } from "mobx-state-tree";
+
+/**
+  * Define what your model does
+  */
+export const <%= name.pascal %>Model = types
+  .model("<%= name.pascal %>")
+  .props({
+    // TODO: Define <%= name.title %> properties here
+  })
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  .views(self => ({
+    // TODO: Define <%= name.title %> views here (if any)
+  }))
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  .actions(self => ({
+    // TODO: Define <%= name.title %> actions here (if any)
+  }));
+
+export type <%= name.pascal %> = Instance<typeof <%= name.pascal %>Model>;
+export type <%= name.pascal %>Snapshot = SnapshotOut<typeof <%= name.pascal %>Model>;

@@ -1,0 +1,16 @@
+// TODO: Write Pokemon List styles
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	img {
+		width: 200px;
+	}
+}
+.grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 430px;
+	text-align: center;
+}

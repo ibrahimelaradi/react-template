@@ -1,0 +1,15 @@
+import React from "react";
+import { observer } from "mobx-react-lite";
+import "./<%= name.kebab %>.scss";
+
+interface <%= name.pascal %>Props {
+  // TODO: Add component props here
+}
+
+export const <%= name.pascal %> = observer((props: <%= name.pascal %>Props ) => {
+  return (
+    <div>
+      <h1><%= name.title %> </h1>
+    </div>
+  );
+});

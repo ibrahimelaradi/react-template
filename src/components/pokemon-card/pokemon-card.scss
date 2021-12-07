@@ -1,0 +1,15 @@
+// TODO: Write PokemonCard styles
+.card {
+	max-width: 110px;
+	background-color: blueviolet;
+	padding: 8px;
+	margin: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	h1 {
+		color: white;
+		font-size: medium;
+	}
+}
