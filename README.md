@@ -1,4 +1,11 @@
-# React Template
+![cover](https://res.cloudinary.com/practicaldev/image/fetch/s--UPntpHQX--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wyiwa0zxtanhbi44xu88.png)
+
+<div align="center">
+	<img src="https://img.shields.io/github/stars/ibrahimelaradi/react-template?style=social">
+	<img src="https://img.shields.io/github/watchers/ibrahimelaradi/react-template?style=social">
+	<img src="https://img.shields.io/github/forks/ibrahimelaradi/react-template?style=social">
+	<img src="https://img.shields.io/github/package-json/v/ibrahimelaradi/react-template">
+</div>
 
 A react template heavily inspired by Ignite CLI's boilerplate for React Native, it uses a couple of generators with simple template customization.
 
